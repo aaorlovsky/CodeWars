@@ -1,6 +1,10 @@
 ﻿var val = int.Parse(Console.ReadLine()!);
 
-var bitArray = new System.Collections.BitArray(BitConverter.GetBytes(val));
+Console.WriteLine(System.Numerics.BitOperations.PopCount((uint)val));
+//best practice
+
+//my solution
+/*var bitArray = new System.Collections.BitArray(BitConverter.GetBytes(val));
 var count = 0;
 foreach (bool bit in bitArray)
 {
@@ -9,5 +13,5 @@ foreach (bool bit in bitArray)
         count++;
     }
 }
-Console.WriteLine(count);
+Console.WriteLine(count);*/
 

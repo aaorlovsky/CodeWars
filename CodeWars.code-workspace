@@ -2,6 +2,9 @@
   "folders": [
     {
       "path": "BitArrays"
+    },
+    {
+      "path": "StringConvert"
     }
   ],
   "settings": {}
