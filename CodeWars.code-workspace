@@ -8,6 +8,9 @@
     },
     {
       "path": "Enumerable"
+    },
+    {
+      "path": "DirDirection"
     }
   ],
   "settings": {}
